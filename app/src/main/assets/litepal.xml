@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <!-- 指定数据库名称 为 Cool_weather -->
+    <dbname value="cool_weather" />
+    <!-- 版本 为 1-->
+    <version value="1" />
+
+    <!-- 实体类-->
+    <list>
+        <mapping class="com.coolweather.android.db.Province" />
+        <mapping class="com.coolweather.android.db.City" />
+        <mapping class="com.coolweather.android.db.County" />
+    </list>
+
+</litepal>
